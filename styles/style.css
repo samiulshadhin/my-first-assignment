@@ -217,3 +217,70 @@ iframe{
     font-weight: bold;
     color: #0D1321;
 }
+
+
+/* Support Section Styles */
+.support-section{
+    background-image: url(../assets/handshake.jpg);
+    background-size: auto;
+    margin: 0 auto 70px;
+    width: 990px;
+    height: 265px;
+    border-radius: 16px;
+    /* background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); */
+}
+.support-section-title{
+    font-size: 29px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+.support-section-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+form input[type="text"]{
+    width: 430px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+}
+form input[type="submit"]{
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* Footer Section */
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(13, 19, 33, 0.03);
+    align-items: center;
+    width: 100%;
+}
+.footer-section-text{
+    font-size: 17px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.footer-section-image{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    gap: 20px;
+}
