@@ -49,7 +49,7 @@
     border-radius: 16px;
     border: none;
     width: 1020px;
-    margin: 75px auto 90px;
+    margin: 75px auto 80px;
     padding-bottom: 40px;
 }
 .web-dev-part{
@@ -125,7 +125,31 @@
 }
 
 
-/* Last Box Specific Styles (Box No.3) */
-.last-box-style{
-    /* padding-bottom: 80px; */
+/* Inspiration Section Styles */
+.inspire-section{
+    text-align: center;
+}
+.inspire-title{
+    font-size: 29px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 10px;
+}
+.inspire-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0D1321;
+    margin: 20px 290px 40px;
+}
+.embed-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    padding: 22px 20px;
+    margin-bottom: 130px;
+}
+iframe{
+    border-radius: 10px;
 }
