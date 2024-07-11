@@ -55,45 +55,59 @@
     font-size: 29px;
     font-weight: 800;
     color: #0D1321;
-    padding: 80px 145px 0px;
+    padding: 65px 145px 0px;
 }
 .web-dev-description{
     font-size: 15px;
     font-weight: 400;
     color: #0D1321;
-    padding: 0px 144px 48px;
+    padding: 0px 144px 30px;
 }
 /* 3 boxes Styles in Web Development section */
-.web-dev-box-one{
+.web-dev-box{
     display: flex;
-    gap: 100px;
-    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-    width: 945px;
-    height: 336px;
+    width: 860px;
+    height: 300px;
     margin-bottom: 30px;
     border-radius: 16px;
     margin: 0px auto 30px;
+    align-items: center;
 }
-.box-one-title{
+.box-title{
     font-size: 23px;
     font-weight: bold;
     color: rgba(13, 19, 33, 0.7);
     line-height: 36px;
-    width: 370px;
+    width: 350px;
     text-align: left;
     margin-bottom: 15px;
 }
-.box-one-description{
-    font-size: 16px;
+.box-description{
+    font-size: 15px;
     font-weight: 400;
     color: #0D1321;
     line-height: 26px;
     width: 450px;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .learn-more-btn{
-    background-color: none;
-    border: 1px solid rgba(13, 19, 33, 1);
+    border: 1px solid #0D1321;
+    background-color: transparent;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D1321;
+    margin-bottom: 30px;
+}
+.box-image{
+    width: 250x;
+    height: 200px;
+}
+/* Reverse Box Styles (Middle one) */
+.reverse-items-box{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
