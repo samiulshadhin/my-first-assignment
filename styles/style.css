@@ -1,0 +1,99 @@
+/* Azeret Mono Font */
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Header Section Styles */
+.header-section{
+    text-align: center;
+    background-image: url(../assets/Hero-bg.png);
+}
+.header-img{
+    width: 240px;
+    height: 240px;
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    margin: 0px 150px;
+    margin-bottom: 25px;
+}
+.header-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    margin: 0px 290px 30px;
+}
+.header-button{
+    margin-bottom: 50px;
+    background-color: #0D1321;
+    color: #FFFFFF;
+    padding: 21px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Main Part Styles */
+.web-dev-full-section{
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    border: none;
+    width: 1020px;
+    margin: 75px auto 90px;
+}
+.web-dev-part{
+    text-align: center;
+}
+.web-dev-title{
+    font-size: 29px;
+    font-weight: 800;
+    color: #0D1321;
+    padding: 80px 145px 0px;
+}
+.web-dev-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0D1321;
+    padding: 0px 144px 48px;
+}
+/* 3 boxes Styles in Web Development section */
+.web-dev-box-one{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    width: 945px;
+    height: 336px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    margin: 0px auto 30px;
+}
+.box-one-title{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 36px;
+    width: 370px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.box-one-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    line-height: 26px;
+    width: 450px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.learn-more-btn{
+    background-color: none;
+    border: 1px solid rgba(13, 19, 33, 1);
+}
