@@ -5,19 +5,20 @@
   font-style: normal;
 }
 
+
 /* Header Section Styles */
 .header-section{
     text-align: center;
     background-image: url(../assets/Hero-bg.png);
 }
 .header-img{
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
     margin-top: 26px;
     margin-bottom: 32px;
 }
 .header-title{
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 800;
     color: #0D1321;
     margin: 0px 150px;
@@ -33,12 +34,14 @@
     margin-bottom: 50px;
     background-color: #0D1321;
     color: #FFFFFF;
-    padding: 21px 24px;
+    padding: 18px 22px;
     border-radius: 8px;
     border: none;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
+    cursor: pointer;
 }
+
 
 /* Main Part Styles */
 .web-dev-full-section{
@@ -47,6 +50,7 @@
     border: none;
     width: 1020px;
     margin: 75px auto 90px;
+    padding-bottom: 40px;
 }
 .web-dev-part{
     text-align: center;
@@ -63,7 +67,9 @@
     color: #0D1321;
     padding: 0px 144px 30px;
 }
-/* 3 boxes Styles in Web Development section */
+
+
+/* Web Development Full Section Styles */
 .web-dev-box{
     display: flex;
     gap: 10px;
@@ -77,7 +83,7 @@
     align-items: center;
 }
 .box-title{
-    font-size: 23px;
+    font-size: 22px;
     font-weight: bold;
     color: rgba(13, 19, 33, 0.7);
     line-height: 36px;
@@ -90,7 +96,7 @@
     font-weight: 400;
     color: #0D1321;
     line-height: 26px;
-    width: 450px;
+    width: 440px;
     text-align: left;
     margin-bottom: 25px;
 }
@@ -102,12 +108,24 @@
     font-weight: 600;
     color: #0D1321;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .box-image{
     width: 250x;
     height: 200px;
 }
-/* Reverse Box Styles (Middle one) */
+
+
+/* Reverse Box Styles (Box No.2) */
 .reverse-items-box{
     background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+.reverse-items-box-title{
+    font-size: 20px;
+}
+
+
+/* Last Box Specific Styles (Box No.3) */
+.last-box-style{
+    /* padding-bottom: 80px; */
 }
