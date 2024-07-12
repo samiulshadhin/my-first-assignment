@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
 /* Azeret Mono Font */
 .azeret-mono-font {
   font-family: "Azeret Mono", monospace;
@@ -263,28 +269,28 @@ form input[type="submit"]{
     height: 48px;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
 }
 
 
 /* Footer Section */
 .footer-section{
     display: flex;
+    justify-content: space-around;
     background-color: rgba(13, 19, 33, 0.03);
     align-items: center;
+    background-color: rgba(13, 19, 33, 0.05);
+    border-radius: 16px 16px 0px 0px;
     width: 100%;
-    gap: 440px;
 }
 .footer-section-text{
     font-size: 17px;
     font-weight: 600;
     color: #0D1321;
-    text-align: left;
-    padding-left: 139px;
 }
 .footer-section-image{
     width: 22px;
     height: 22px;
     display: flex;
     gap: 20px;
-    padding-bottom: 13px;
 }
