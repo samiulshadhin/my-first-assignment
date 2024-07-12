@@ -222,7 +222,7 @@ iframe{
 /* Support Section Styles */
 .support-section{
     background-image: url(../assets/handshake.jpg);
-    background-size: auto;
+    background-size: contain;
     margin: 0 auto 70px;
     width: 990px;
     height: 265px;
@@ -247,6 +247,7 @@ form {
     display: flex;
     justify-content: center;
     gap: 14px;
+    padding-top: 10px;
 }
 form input[type="text"]{
     width: 430px;
@@ -268,19 +269,22 @@ form input[type="submit"]{
 /* Footer Section */
 .footer-section{
     display: flex;
-    justify-content: space-around;
     background-color: rgba(13, 19, 33, 0.03);
     align-items: center;
     width: 100%;
+    gap: 440px;
 }
 .footer-section-text{
     font-size: 17px;
     font-weight: 600;
     color: #0D1321;
+    text-align: left;
+    padding-left: 139px;
 }
 .footer-section-image{
     width: 22px;
     height: 22px;
     display: flex;
     gap: 20px;
+    padding-bottom: 13px;
 }
